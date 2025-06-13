@@ -26,8 +26,7 @@ function assert(condition, message) {
 
 console.log("--- Memulai Tes Unit Kalkulator ---");
 
-//perubahan 2+2
-assert(testPerformCalculation("2+2") === 5, "Tes Penjumlahan: 2+2 seharusnya 5 (sengaja disalahkan)");
+assert(testPerformCalculation("2+2") === 4, "Tes Penjumlahan: 2+2 seharusnya 4");
 assert(testPerformCalculation("5-3") === 2, "Tes Pengurangan: 5-3 seharusnya 2");
 assert(testPerformCalculation("4*3") === 12, "Tes Perkalian: 4*3 seharusnya 12");
 assert(testPerformCalculation("10/2") === 5, "Tes Pembagian: 10/2 seharusnya 5");
